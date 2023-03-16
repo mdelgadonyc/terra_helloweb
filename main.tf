@@ -1,5 +1,5 @@
 resource "aws_instance" "helloec2" {
-    ami                     = "ami-0fb653ca2d3203ac1"
+    ami                     = "ami-0172070f66a8ebe63"
     instance_type           = "t2.micro"
     vpc_security_group_ids  = [aws_security_group.hello_sg.id]
 
